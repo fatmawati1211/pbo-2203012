@@ -19,6 +19,6 @@ class Config
           define("URL", "http://localhost/pbwl-project10");
           define("AST", URL . "/layouts/assets");
 
-          define("ROOT", dirname(__DIR__) . DIRECTORY_SEPARATOR);
+          define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
      }
 }
